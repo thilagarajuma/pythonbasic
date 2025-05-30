@@ -231,7 +231,7 @@ Floor Division   =>  //
 Modulus          =>  %
 Exponentiation   =>  **
 """
-
+"""
 a,b =2,4
 
 # Addition
@@ -263,7 +263,7 @@ Total = a**b
 print(f"Exponentiation: The sum of a ** b : {Total}" )
 print("\n")
 
-
+"""
 ############ Comparison operator ###########
 
 """
@@ -295,13 +295,47 @@ print(a<=b)
     or
     not
 """
+"""
 a,b = 3,6
 
 print(a>1 and b>a)
 print(a>1 or b>a)
 print(a>1 and not b>a)
+"""
+"""
+print("Please enter your mark to check exam pass or not status")
 
+sub1 = int(input("please enter your mark in Tamil: "))
+sub2 = int(input("please enter your mark in English: "))
 
+print("\n")
+print((sub1 >= 35 and sub2>=35)) #True
+print("\n")
+print((sub1 >= 35 or sub2>=35))
+print("\n")
+print((not sub1 >= 35 and   sub2>=35)) #True #False>True
+"""
+"""
+is
+is not
+"""
 
 ######## Identity Operator ############
 
+"""
+is
+is not
+"""
+
+a = ["vijay","Ajith"]
+
+b = ["vijay","Ajith"]
+
+c = a
+
+print(a is b)
+print(a is not b)
+print(c is a)
+print(id(a))
+print(id(b))
+print(id(c))
